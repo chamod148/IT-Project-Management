@@ -1,15 +1,15 @@
 # 📝 Singlish to Sinhala Translator Automation Project
 ### ITPM - Assignment 01 | Quality Assurance (QA)
 
-This repository contains the automated testing suite for the **SwiftTranslator** web application. The goal is to evaluate translation accuracy and verify essential UI functionalities using **Playwright**.
+This repository contains a comprehensive automated testing suite designed for the SwiftTranslator web application. The project focuses on ensuring a seamless user experience by validating the core engine that converts phonetic Singlish input into accurate Sinhala script.
 
 ---
 
 ## 👤 Student Information
 | Field | Details |
 | :--- | :--- |
-| **Name** | Vithana O.V.D.P.D |
-| **Student ID** | IT23630116 |
+| **Name** | Perera P.H.C.K |
+| **Student ID** | IT23640702 |
 | **Specialization** | Information Technology |
 | **Option Selected** | Option 1 (Singlish to Sinhala) |
 
@@ -36,12 +36,12 @@ Clone this repository to your local machine and install the dependencies:
 
 ###### Clone the repository
 ```bash
-git clone https://github.com/pasindu8/IT3040---IT-Project-Management.git
+git clone https://github.com/chamod148/IT-Project-Management.git
 ```
 
 ###### Navigate into the folder
 ```bash
-cd SLIIT ITPM
+cd ITPM
 ```
 
 ###### Install Node modules
@@ -62,7 +62,7 @@ You can run the tests using the following terminal commands:
 | :--- | :--- |
 | Run All Tests (Headed) | npx playwright test --headed |
 | Run Accuracy Tests | npx playwright test tests/assignment.spec.js --headed |
-| Run UI-Related Tests | npx playwright test tests/test.spec.js --headed |
+| Run UI-Related Tests | npx playwright test tests/ui_test.spec.js --headed |
 | View Test Report | npx playwright show-report |
 
 ---
@@ -75,7 +75,7 @@ You can run the tests using the following terminal commands:
 ├── playwright.config.js     # Playwright configuration
 ├── package.json             # Project dependencies
 ├── README.md                # Project documentation
-└── IT23630116.xlsx          # Test Case document (Appendix 2)
+
 ```
 
 ---
